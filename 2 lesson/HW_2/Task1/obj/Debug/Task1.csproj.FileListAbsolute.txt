@@ -1,0 +1,8 @@
+D:\Geekbrains\VR-AR\C#\2 lesson\HW_2\Task1\obj\Debug\Task1.csproj.AssemblyReference.cache
+D:\Geekbrains\VR-AR\C#\2 lesson\HW_2\Task1\obj\Debug\Task1.csproj.SuggestedBindingRedirects.cache
+D:\Geekbrains\VR-AR\C#\2 lesson\HW_2\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+D:\Geekbrains\VR-AR\C#\2 lesson\HW_2\Task1\bin\Debug\Task1.exe.config
+D:\Geekbrains\VR-AR\C#\2 lesson\HW_2\Task1\bin\Debug\Task1.exe
+D:\Geekbrains\VR-AR\C#\2 lesson\HW_2\Task1\bin\Debug\Task1.pdb
+D:\Geekbrains\VR-AR\C#\2 lesson\HW_2\Task1\obj\Debug\Task1.exe
+D:\Geekbrains\VR-AR\C#\2 lesson\HW_2\Task1\obj\Debug\Task1.pdb
