@@ -1,0 +1,8 @@
+D:\Geekbrains\VR-AR\C#\VR-AR-C#-repo\3 lesson\HW_3\HW_3\bin\Debug\HW_3.exe.config
+D:\Geekbrains\VR-AR\C#\VR-AR-C#-repo\3 lesson\HW_3\HW_3\bin\Debug\HW_3.exe
+D:\Geekbrains\VR-AR\C#\VR-AR-C#-repo\3 lesson\HW_3\HW_3\bin\Debug\HW_3.pdb
+D:\Geekbrains\VR-AR\C#\VR-AR-C#-repo\3 lesson\HW_3\HW_3\obj\Debug\Task1a.csproj.AssemblyReference.cache
+D:\Geekbrains\VR-AR\C#\VR-AR-C#-repo\3 lesson\HW_3\HW_3\obj\Debug\Task1a.csproj.SuggestedBindingRedirects.cache
+D:\Geekbrains\VR-AR\C#\VR-AR-C#-repo\3 lesson\HW_3\HW_3\obj\Debug\Task1a.csproj.CoreCompileInputs.cache
+D:\Geekbrains\VR-AR\C#\VR-AR-C#-repo\3 lesson\HW_3\HW_3\obj\Debug\HW_3.exe
+D:\Geekbrains\VR-AR\C#\VR-AR-C#-repo\3 lesson\HW_3\HW_3\obj\Debug\HW_3.pdb
