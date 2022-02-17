@@ -11,43 +11,52 @@ using System.Collections;
 using System.IO;
 class Program
 {
+
+/*    static int AgeSort(Student st1, Student st2)          // Создаем метод для сравнения для экземпляров
+    {
+        return String.Compare(st1.age.ToString(), st2.age.ToString());          // Сравниваем две строки
+    }*/
+
+
     static void Main(string[] args)
     {
-        int numOfStud5 = 0;
-        int numOfStud6 = 0;
+        int numOfStud5 = 0; // количество студентов на 5 курсе
+        int numOfStud6 = 0; // количество студентов на 6 курсе
+        
         // Создадим необобщенный список
         ArrayList list = new ArrayList();
+        
         // Запомним время в начале обработки данных
         DateTime dt = DateTime.Now;
         StreamReader sr = new StreamReader("..\\..\\students.csv");
-        int[] a = new int[6];
+        
+        int[] a = new int[6]; // массив количеств студентов на каждом курсе
+        
         while (!sr.EndOfStream)
         {
             try
             {
                 string[] s = sr.ReadLine().Split(';');
                 // Console.WriteLine("{0}", s[0], s[1], s[2], s[3], s[4]);
+                
                 list.Add(s[1] + " " + s[0]);// Добавляем склееные имя и фамилию
-                if (int.Parse(s[6]) == 5) numOfStud5++;
+                
+                if (int.Parse(s[6]) == 5) numOfStud5++; // условие принадлежности к 5 курсу
                 else
                 {
-                    if (int.Parse(s[6]) == 6) numOfStud6++;
+                    if (int.Parse(s[6]) == 6) numOfStud6++; // условие принадлежности к 6 курсу
                 }
 
                 //Считаем студентов 18-20, записываем в массив количество соответственно номеру курса
 
-
-                
                 if (int.Parse(s[5]) >= 18 && int.Parse(s[5]) <= 20) a[int.Parse(s[6])]++;
-
             }
             catch
             {
-
-
         }
     }
         sr.Close();
+        
         list.Sort();
         /*Console.WriteLine("Всего студентов:{0}", list.Count);*/
         Console.WriteLine("Студентов на 5 курсе:{0}", numOfStud5, "человек");
